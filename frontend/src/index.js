@@ -31,6 +31,8 @@ import ProductListScreen from './screens/admin/ProductListScreen';
 import ProductEditScreen from './screens/admin/ProductEditScreen';
 import UserListScreen from './screens/admin/UserListSCreen';
 import UserEditScreen from './screens/admin/UserEditScreen';
+import AboutUs from './screens/About';
+import FAQ from './screens/FAQ';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -40,6 +42,8 @@ const router = createBrowserRouter(
       <Route path='/book' element={<BookScreen />}/>
       <Route path='/login' element={<LoginScreen />}/>
       <Route path='/register' element={<RegisterScreen />}/>
+      <Route path='/about' element={<AboutUs />}/>
+      <Route path='/FAQ' element={<FAQ />}/>
       {/* Registered users */}
       <Route path='' element={<PrivateRoute />}>
         <Route path='/shipping' element={<ShippingScreen />} />
