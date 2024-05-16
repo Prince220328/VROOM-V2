@@ -1,0 +1,44 @@
+.aboutUs {
+    margin: 20px;
+    padding: 40px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    color: #333333;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content {
+    color: #555555;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+ul {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+    .aboutUs {
+        padding: 20px;
+    }
+    .title {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    .content {
+        font-size: 16px;
+    }
+}
